@@ -1,0 +1,9 @@
+id: cfe912f5-eaf4-4244-b101-29a4926264e6
+name: Domain
+type: domain
+description: Domain example
+namespace: Ca.CaepFlow.Domain
+interactions:
+- type: scenario
+  targetId: 432beea4-4d3f-4923-a70f-874ee17b7d0a
+  level: component

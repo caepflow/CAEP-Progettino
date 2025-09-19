@@ -1,0 +1,15 @@
+id: cf54739e-ffa2-40c2-9231-8cffabd15d21
+type: entity
+name: DataEntity
+description: Example of a database entity
+useRepository: true
+fields:
+- name: name
+  type: string
+  description: Product name
+- name: description
+  type: string
+  description: Product description
+- name: price
+  type: float
+  description: Product price

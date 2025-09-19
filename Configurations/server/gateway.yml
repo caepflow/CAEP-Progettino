@@ -1,0 +1,7 @@
+id: 98754e08-148f-41ee-8b30-b79abab71c81
+name: Gateway
+type: gateway
+description: Gateway
+port: 10000
+services:
+- service: 57d2b238-ee7f-5408-acd4-33bbb80e60bc
