@@ -1,0 +1,12 @@
+id: fd3a09d6-0268-4e94-93d7-f6e1720be031
+type: database
+provider: sqlserver
+name: Database
+description: Example of database with SQL Server as provider
+annotations:
+- namespace: c4modeler
+  name: position
+  value:
+    container:
+      x: 139.5
+      y: 376

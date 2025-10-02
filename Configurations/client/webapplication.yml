@@ -1,0 +1,32 @@
+id: 5febac35-73bb-4422-bed8-81772511f762
+type: web-application
+name: WebApplication
+description: WebApplication example
+prefix: ca
+author: CodeArchitects
+target: angular@19
+architecture: single-page-application
+children:
+- id: 067cc031-e0a1-49a7-a0fb-cc1adb9a3b39
+  type: application
+- id: 697c1b12-4a50-4de5-ba94-b54abc247f2f
+  type: domain
+- id: 5321696e-319b-4911-8470-77d33305f68a
+  type: scenario
+annotations:
+- namespace: c4modeler
+  name: position
+  value:
+    container:
+      x: 639.5
+      y: 376
+    component:
+      x: 130.5
+      y: 321.5
+- namespace: c4modeler
+  name: boundary
+  value:
+    x: 140.5
+    y: 331.5
+    width: 281
+    height: 663

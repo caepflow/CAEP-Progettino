@@ -1,0 +1,16 @@
+id: 697c1b12-4a50-4de5-ba94-b54abc247f2f
+name: Domain
+type: domain
+description: Domain example
+namespace: Ca.CaepFlow.Domain
+interactions:
+- type: scenario
+  targetId: 5321696e-319b-4911-8470-77d33305f68a
+  level: component
+annotations:
+- namespace: c4modeler
+  name: position
+  value:
+    component:
+      x: 140.5
+      y: 331.5

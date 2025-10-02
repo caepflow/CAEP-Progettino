@@ -1,0 +1,24 @@
+id: 067cc031-e0a1-49a7-a0fb-cc1adb9a3b39
+name: Application
+type: application
+description: Application layer
+author: CodeArchitects
+namespace: Ca.CaepFlow
+modelNamespace: Ca.CaepFlow.Model
+rootNamespace: Ca.CaepFlow.Containers
+baseApiUrl: ca/caepflow
+isFederable: true
+interactions:
+- type: domain
+  targetId: 697c1b12-4a50-4de5-ba94-b54abc247f2f
+  level: component
+- type: service
+  targetId: 4cb4d70a-9830-402b-a26d-3abb1cf65cdc
+  level: component
+annotations:
+- namespace: c4modeler
+  name: position
+  value:
+    component:
+      x: 140.5
+      y: 80.5

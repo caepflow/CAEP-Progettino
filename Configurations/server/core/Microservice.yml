@@ -1,0 +1,38 @@
+id: 4cb4d70a-9830-402b-a26d-3abb1cf65cdc
+name: Microservice
+type: service
+description: Microservice
+namespace: Ca.CaepFlow.Service
+target:
+  framework: net
+  version: 9
+disableRequiredKeyword: true
+data:
+  orm: EntityFrameworkCore
+children:
+- id: d0802dd7-9831-4b31-b76f-ba0de8fa0858
+  type: operation
+- id: 8a3bd168-3348-4c0a-9206-a77618c50dfc
+  type: dto
+- id: 635574eb-bca5-46a9-9353-e2b6c8c67b42
+  type: entity
+interactions:
+- type: database
+  targetId: fd3a09d6-0268-4e94-93d7-f6e1720be031
+  level: container
+- type: gateway
+  targetId: caf1242a-1c0d-4abd-9752-0f73d976b52f
+  level: container
+mappings:
+- entity: DataEntity
+  contract: DataTransferObject
+- entity: DataEntity
+  contract: DataTransferObject
+  inverse: true
+annotations:
+- namespace: c4modeler
+  name: position
+  value:
+    container:
+      x: 264.5
+      y: 80.5
